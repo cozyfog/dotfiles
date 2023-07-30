@@ -18,5 +18,6 @@ force_color_prompt=yes
 alias vi='vim '
 alias ls='ls --color=auto'
 alias grep='grep --color=auto'
+alias clear="printf '\E[H\E[3J' "
 
-PS1='\[\033[1;0m\][\[\033[1;35m\]\u@\h \[\033[1;0m\]\w\[\033[1;0m\]] \$ '
+PS1='\[\033[1;35m\]\u@\h \[\033[1;0m\]\w -> '

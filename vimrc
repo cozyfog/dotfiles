@@ -4,6 +4,8 @@ Plug 'vim-scripts/AutoComplPop'
 Plug 'morhetz/gruvbox'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
+Plug 'vim-scripts/c.vim'
+Plug 'vim-scripts/TagHighlight'
 Plug 'ollykel/v-vim'
 
 call plug#end()
@@ -23,22 +25,14 @@ set shiftwidth=2        " number of spaces to use for each step of (auto)indent
 set softtabstop=2       " backspace after pressing <TAB> will remove up to this many spaces
 set autoindent          " copy indent from current line when starting a new line
 set smartindent
+set cursorline
 
-vsplit
-set splitbelow
-set termwinsize=10x0
-botright term
+set termguicolors
 
 colorscheme gruvbox
 set bg=dark
 
-inoremap " ""<left>
-inoremap ' ''<left>
-inoremap ( ()<left>
-inoremap [ []<left>
-inoremap { {}<left>
-inoremap {<CR> {<CR>}<ESC>O
-inoremap {;<CR> {<CR>};<ESC>O
+""hi CursorLine guibg=#360098
 
 nnoremap <C-o> :Files<Cr>
 
