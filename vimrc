@@ -32,7 +32,7 @@ set termguicolors
 colorscheme gruvbox
 set bg=dark
 
-""hi CursorLine guibg=#360098
+" hi CursorLine guibg=#360098
 
 nnoremap <C-o> :Files<Cr>
 

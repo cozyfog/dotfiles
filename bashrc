@@ -5,6 +5,8 @@
 # If not running interactively, don't do anything
 [[ $- != *i* ]] && return
 
+setxkbmap de
+
 cyan='\033[1;36m\]';
 red='\[\033[1;31m\]'
 green='\[\033[1;32m\]'
@@ -20,4 +22,5 @@ alias ls='ls --color=auto'
 alias grep='grep --color=auto'
 alias clear="printf '\E[H\E[3J' "
 
-PS1='\[\033[1;35m\]\u@\h \[\033[1;0m\]\w -> '
+PS1='\u@\h \w % '
+#PS1=' \W -> '
