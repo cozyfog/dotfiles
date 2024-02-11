@@ -6,15 +6,15 @@ Version=202
 ViewPropsTimestamp=2024,2,11,9,44,1.106
 
 [IconsMode]
-PreviewSize=80
+PreviewSize=112
 
 [KFileDialog Settings]
 Places Icons Auto-resize=false
 Places Icons Static Size=22
 
 [KPropertiesDialog]
-1920x1080 screen: Height=583
-1920x1080 screen: Width=493
+1920x1080 screen: Height=438
+1920x1080 screen: Width=462
 
 [MainWindow]
 MenuBar=Disabled

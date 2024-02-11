@@ -36,7 +36,7 @@ colorscheme gruvbox
 set bg=dark
 hi Normal guibg=NONE ctermbg=NONE
 
-nnoremap <C-o> :Files<Cr>
+map o :Files<Cr>
 
 let g:v_highlight_array_whitespace_error = 0
 let g:v_highlight_chan_whitespace_error = 0
