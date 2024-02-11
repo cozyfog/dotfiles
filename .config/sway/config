@@ -58,7 +58,7 @@ input type:keyboard {
     xkb_layout de,us(dvorak)
 
     #   layout swap key
-    xkb_options grp:rctrl_toggle,caps:backspace
+    xkb_options grp:rctrl_toggle,caps:escape
 }
 
 #exec --no-startup-id xinput set-prop "ELAN0712:00 04F3:30FD Touchpad" "libinput Tapping Enabled" 1
