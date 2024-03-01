@@ -1,0 +1,12 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhistcnt =2
+let g:netrw_dirhist_2='/home/daniel/git/st'
+let g:netrw_dirhist_1='/home/daniel/dev/wm'
+let g:netrw_dirhist_0='/home/daniel/git/dwm'
+let g:netrw_dirhist_9='/home/daniel/dev/tinywm'
+let g:netrw_dirhist_8='/home/daniel/dev/wm/src'
+let g:netrw_dirhist_7='/home/daniel/dev/wm'
+let g:netrw_dirhist_6='/home/daniel/dev/wm/src'
+let g:netrw_dirhist_5='/home/daniel/dev/wm'
+let g:netrw_dirhist_4='/home/daniel/dev/wm/src'
+let g:netrw_dirhist_3='/home/daniel/dev/wm'

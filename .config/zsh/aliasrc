@@ -1,0 +1,6 @@
+#!/bin/sh
+
+alias img='sxiv'
+alias ls='ls -A --color=auto'
+alias vi='vim'
+alias record='ffmpeg -f x11grab -i :0.0 $(date +%d-%m-%y.mkv)'
